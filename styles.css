@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #6003C3;
+  --white: #FFFFFF;
+  --box-color-1: #FCFF00;
+  --box-color-2: #57FFC9;
+  --box-color-3: #A5FF01;
+}
+
+body {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+}
