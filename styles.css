@@ -67,13 +67,8 @@ footer {
 @media (min-width: 700px) {
   .box {
     display: inline;
-    width: 140px;
-    height: 140px;
-    margin: 50px;
-    font-size: 50px;
+    margin: 20px;
     padding: 30px 50px;
-    border-radius: 7px;
-    line-height: 140px;
   }
   .boxes {
     padding: 80px 0;
@@ -90,6 +85,27 @@ footer {
   }
 }
 
-@media (min-width: 1000px) {
-
+@media (min-width: 1300px) {
+  h1 {
+    font-size: 90px;
+  }
+  main {
+    font-size: 40px;
+  }
+  .box {
+    font-size: 72px;
+    margin: 40px;
+  }
+  #box-1 {
+    outline: 15px solid #FC7A1E;
+  }
+  #box-2 {
+    outline: 15px solid #F9C784;
+  }
+  #box-3 {
+    outline: 15px solid #F9C784;
+  }
+  footer {
+    font-size: 30px;
+  }
 }
