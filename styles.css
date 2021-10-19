@@ -41,19 +41,19 @@ h1 {
 #box-1 {
   background-color: #F9C784;
   color: #FC7A1E;
-  outline: 10px solid #FC7A1E;
+  box-shadow: 0 0 0 10px #FC7A1E;
 }
 
 #box-2 {
   background-color: #FC7A1E;
   color: #F9C784;
-  outline: 10px solid #F9C784;
+  box-shadow: 0 0 0 10px #F9C784;
 }
 
 #box-3 {
   background-color: #F24C00;
   color: #F9C784;
-  outline: 10px solid #F9C784;
+  box-shadow: 0 0 0 10px #F9C784;
 }
 
 footer {
