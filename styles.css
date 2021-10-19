@@ -32,7 +32,7 @@ h1 {
 .box {
   width: 120px;
   height: 120px;
-  margin: 30px auto;
+  margin: 50px auto;
   font-size: 50px;
   border-radius: 7px;
   line-height: 120px;
@@ -54,4 +54,42 @@ h1 {
   background-color: #F24C00;
   color: #F9C784;
   outline: 10px solid #F9C784;
+}
+
+footer {
+  padding: 7%;
+  color: #485696;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+  .box {
+    display: inline;
+    width: 140px;
+    height: 140px;
+    margin: 50px;
+    font-size: 50px;
+    padding: 30px 50px;
+    border-radius: 7px;
+    line-height: 140px;
+  }
+  .boxes {
+    padding: 80px 0;
+  }
+  .score {
+    display: flex;
+    justify-content: center;
+  }
+  #wins {
+    padding: 0 20px;
+  }
+  #losses {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+
 }
