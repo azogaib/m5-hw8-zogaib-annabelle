@@ -25,9 +25,13 @@ for (var i=0; i < boxElements.length; i++) {
         var boxNumWasClicked = Number(event.target.textContent)
 
         // create a random number between 1-3 and store it to a variable
+       // var winningNum = getRandomArbitrary
         // This number will represent the winning box
-        var winningBox = Math.floor(Math.random() * 3);
 
+        var winningBox = 1 + Math.floor(Math.random()*boxElements.length)
+
+        console.log(winningBox)
+        console.log(boxNumWasClicked)
         // determine if the box clicked is equal to the random number
         // if the numbers match, display a winning message by changing the text content of the div#message element
         // if the numbers match, increment wins and display the win count in div#wins
