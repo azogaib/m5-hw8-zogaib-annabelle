@@ -1,23 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
 body {
   font-family: 'Bowlby One SC', cursive;
   color: #E7E7E7;
+  text-align: center;
+}
+
+header {
+  padding: 7% 10%;
+}
+
+main {
+  font-size: 25px;
   background-color: #485696;
+  padding: 10%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #485696;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  margin: 30px auto;
+  font-size: 50px;
+  border-radius: 7px;
+  line-height: 120px;
 }
 
 #box-1 {
   background-color: #F9C784;
   color: #FC7A1E;
-
+  outline: 10px solid #FC7A1E;
 }
 
 #box-2 {
   background-color: #FC7A1E;
   color: #F9C784;
-
+  outline: 10px solid #F9C784;
 }
 
 #box-3 {
   background-color: #F24C00;
   color: #F9C784;
-
+  outline: 10px solid #F9C784;
 }
